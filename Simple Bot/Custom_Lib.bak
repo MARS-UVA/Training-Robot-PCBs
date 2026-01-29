@@ -450,7 +450,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name "VCC"
@@ -468,7 +468,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "VCC"
