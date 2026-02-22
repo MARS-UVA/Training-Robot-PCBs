@@ -2175,7 +2175,7 @@
 				)
 			)
 		)
-		(property "Value" "Pi_GND"
+		(property "Value" "GND"
 			(at 2.5 4.04 0)
 			(layer "F.SilkS")
 			(uuid "04fd65b2-dad6-4252-989b-282b39b3a4ad")
@@ -3109,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Value" "Pi_PWR"
+		(property "Value" "3.3V"
 			(at 2.5 4 0)
 			(layer "F.SilkS")
 			(uuid "67bb8053-8362-406d-aeed-a08102a5ab3c")
@@ -6056,6 +6056,18 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "External power"
+		(at 192 41 0)
+		(layer "F.SilkS")
+		(uuid "b7d804f4-7d23-4ed2-a460-539c7c05e00d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
