@@ -4,12 +4,6 @@
 	(generator_version "9.0")
 	(uuid "6c2c2fc2-b3e3-4ecd-b399-dbed51a0d4e3")
 	(paper "A4")
-<<<<<<< Updated upstream
-	(lib_symbols)
-	(rectangle
-		(start 46.99 66.04)
-		(end 102.87 96.52)
-=======
 	(lib_symbols
 		(symbol "Breakout_tb6612FNG_1"
 			(exclude_from_sim no)
@@ -2757,7 +2751,6 @@
 	(rectangle
 		(start 48.26 71.12)
 		(end 104.14 101.6)
->>>>>>> Stashed changes
 		(stroke
 			(width 0)
 			(type default)
@@ -2768,13 +2761,8 @@
 		(uuid 3e9dd3b6-9253-43f8-ae4a-b37783a0e671)
 	)
 	(rectangle
-<<<<<<< Updated upstream
-		(start 46.99 33.02)
-		(end 99.06 53.34)
-=======
 		(start 48.26 38.1)
 		(end 100.33 58.42)
->>>>>>> Stashed changes
 		(stroke
 			(width 0)
 			(type default)
@@ -2785,13 +2773,8 @@
 		(uuid 639162c3-95bf-42b2-b2fc-3aea3449727e)
 	)
 	(rectangle
-<<<<<<< Updated upstream
-		(start 181.61 33.02)
-		(end 264.16 55.88)
-=======
 		(start 182.88 38.1)
 		(end 265.43 60.96)
->>>>>>> Stashed changes
 		(stroke
 			(width 0)
 			(type default)
@@ -2802,13 +2785,8 @@
 		(uuid adb551a6-e356-411f-97bc-4d313a1a3631)
 	)
 	(rectangle
-<<<<<<< Updated upstream
-		(start 121.92 33.02)
-		(end 163.83 78.74)
-=======
 		(start 123.19 38.1)
 		(end 165.1 83.82)
->>>>>>> Stashed changes
 		(stroke
 			(width 0)
 			(type default)
@@ -2819,13 +2797,8 @@
 		(uuid e9e36914-341b-4940-8098-1c4e4025a550)
 	)
 	(rectangle
-<<<<<<< Updated upstream
-		(start 121.92 92.71)
-		(end 212.09 157.48)
-=======
 		(start 123.19 97.79)
 		(end 213.36 162.56)
->>>>>>> Stashed changes
 		(stroke
 			(width 0)
 			(type default)
@@ -2835,11 +2808,6 @@
 		)
 		(uuid fb4f0af0-b279-4be6-a9a2-ebf28ca9e5dd)
 	)
-<<<<<<< Updated upstream
-	(text "DC MOTORS"
-		(exclude_from_sim no)
-		(at 189.992 30.988 0)
-=======
 	(text "LEFT MOTOR\n"
 		(exclude_from_sim no)
 		(at 149.352 156.972 0)
@@ -2853,7 +2821,6 @@
 	(text "DC MOTORS"
 		(exclude_from_sim no)
 		(at 191.262 36.068 0)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2863,11 +2830,6 @@
 		)
 		(uuid "06e72080-6018-4041-95ce-d11a523c5d4f")
 	)
-<<<<<<< Updated upstream
-	(text "USB POWER DELIVERY MODULE"
-		(exclude_from_sim no)
-		(at 70.358 30.734 0)
-=======
 	(text "RIGHT MOTOR"
 		(exclude_from_sim no)
 		(at 149.098 127.508 0)
@@ -2881,7 +2843,6 @@
 	(text "USB POWER DELIVERY MODULE"
 		(exclude_from_sim no)
 		(at 71.628 35.814 0)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2893,11 +2854,7 @@
 	)
 	(text "STANDBY SWITCH"
 		(exclude_from_sim no)
-<<<<<<< Updated upstream
-		(at 134.62 30.734 0)
-=======
 		(at 135.89 35.814 0)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2909,11 +2866,7 @@
 	)
 	(text "MOTOR DRIVER CONNECTIONS"
 		(exclude_from_sim no)
-<<<<<<< Updated upstream
-		(at 144.018 90.17 0)
-=======
 		(at 145.288 95.25 0)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2925,11 +2878,7 @@
 	)
 	(text "ARDUINO 3V3 & GND SRC"
 		(exclude_from_sim no)
-<<<<<<< Updated upstream
-		(at 66.802 64.262 0)
-=======
 		(at 68.072 69.342 0)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2939,8 +2888,6 @@
 		)
 		(uuid "f0a31d3b-8a0d-4550-8125-d7f9f6bc7bab")
 	)
-<<<<<<< Updated upstream
-=======
 	(junction
 		(at 173.99 148.59)
 		(diameter 0)
@@ -6565,7 +6512,6 @@
 			)
 		)
 	)
->>>>>>> Stashed changes
 	(sheet_instances
 		(path "/"
 			(page "1")
