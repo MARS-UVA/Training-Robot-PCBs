@@ -1560,6 +1560,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Motor:Motor_DC"
 			(pin_names
 				(offset 0)
@@ -3499,8 +3598,8 @@
 		(uuid "1884ad1f-21b5-4648-92dc-c776db3b3329")
 	)
 	(rectangle
-		(start 22.86 15.24)
-		(end 71.12 38.1)
+		(start 22.86 19.05)
+		(end 71.12 41.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -3512,7 +3611,7 @@
 	)
 	(text "Voltage Lines"
 		(exclude_from_sim no)
-		(at 47.498 34.798 0)
+		(at 47.498 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5247,7 +5346,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 31.75 24.13 180)
+		(at 31.75 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5258,7 +5357,7 @@
 		(fields_autoplaced yes)
 		(uuid "06319f9c-6624-4889-bf45-f279d055e250")
 		(property "Reference" "#FLG01"
-			(at 31.75 26.035 0)
+			(at 31.75 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +5368,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 29.21 0)
+			(at 31.75 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5279,7 +5378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 24.13 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 24.13 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,7 +5400,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 24.13 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5562,7 +5661,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 24.13 180)
+		(at 62.23 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5573,7 +5672,7 @@
 		(fields_autoplaced yes)
 		(uuid "2076e184-d22f-4991-9c1f-75a4a96371f5")
 		(property "Reference" "#FLG04"
-			(at 62.23 26.035 0)
+			(at 62.23 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5584,7 +5683,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 29.21 0)
+			(at 62.23 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5594,7 +5693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5616,7 +5715,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,6 +5732,82 @@
 			(project "Training_Robot"
 				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2410761e-18b2-4ab6-bcaa-48a43ae29219")
+		(property "Reference" "H3"
+			(at 91.44 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
+			(at 88.9 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Training_Robot"
+				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5710,6 +5885,82 @@
 			(project "Training_Robot"
 				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 110.49 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc934cc-30a6-4bf7-9dca-cc1975ff6046")
+		(property "Reference" "H2"
+			(at 113.03 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 113.03 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
+			(at 110.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 110.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Training_Robot"
+				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6155,6 +6406,82 @@
 			(project "Training_Robot"
 				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c7efe3-6aa8-439c-b793-f6e4df174784")
+		(property "Reference" "H1"
+			(at 91.44 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
+			(at 88.9 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Training_Robot"
+				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6795,7 +7122,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 41.91 24.13 0)
+		(at 41.91 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6806,7 +7133,7 @@
 		(fields_autoplaced yes)
 		(uuid "7004ffc6-380c-411e-b5b9-cc2589db2902")
 		(property "Reference" "#PWR029"
-			(at 41.91 27.94 0)
+			(at 41.91 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,7 +7144,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 41.91 19.05 0)
+			(at 41.91 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6827,7 +7154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 24.13 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +7165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 24.13 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6849,7 +7176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 41.91 24.13 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7161,6 +7488,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 110.49 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d7b2126-a27b-4271-8c72-6f6443587d6b")
+		(property "Reference" "H4"
+			(at 113.03 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 113.03 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Training_Robot"
+				(path "/53f0e706-6ac7-4906-8109-2d499eeefa1f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MARS Custom Symbols:PD_Module")
 		(at 163.83 30.48 0)
 		(unit 1)
@@ -7247,7 +7650,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 31.75 24.13 0)
+		(at 31.75 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7258,7 +7661,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cb153d8-6a2c-4bbe-83fe-a5441fcee413")
 		(property "Reference" "#PWR027"
-			(at 31.75 27.94 0)
+			(at 31.75 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7269,7 +7672,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 31.75 19.05 0)
+			(at 31.75 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7279,7 +7682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 24.13 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 24.13 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,7 +7704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 31.75 24.13 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8147,7 +8550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 24.13 180)
+		(at 62.23 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8157,7 +8560,7 @@
 		(dnp no)
 		(uuid "abc40658-ebd8-43cf-84b2-dd49bda14b52")
 		(property "Reference" "#PWR030"
-			(at 62.23 17.78 0)
+			(at 62.23 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.452 19.05 0)
+			(at 60.452 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8179,7 +8582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +8829,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 41.91 24.13 180)
+		(at 41.91 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8437,7 +8840,7 @@
 		(fields_autoplaced yes)
 		(uuid "af22bd6f-7382-4ee1-bfd6-33f4717b8c9c")
 		(property "Reference" "#FLG02"
-			(at 41.91 26.035 0)
+			(at 41.91 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8851,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 41.91 29.21 0)
+			(at 41.91 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8458,7 +8861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 24.13 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 24.13 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8883,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 24.13 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8659,7 +9062,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 24.13 0)
+		(at 52.07 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8670,7 +9073,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb42f031-cf6d-45cd-8f9a-f000db61c9e2")
 		(property "Reference" "#PWR028"
-			(at 52.07 27.94 0)
+			(at 52.07 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8681,7 +9084,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.07 19.05 0)
+			(at 52.07 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8691,7 +9094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 24.13 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8702,7 +9105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 24.13 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8713,7 +9116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 24.13 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9309,7 +9712,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 52.07 24.13 180)
+		(at 52.07 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9320,7 +9723,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7b7f4c5-c4bf-4d3d-a0b3-9535685a7f3b")
 		(property "Reference" "#FLG03"
-			(at 52.07 26.035 0)
+			(at 52.07 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +9734,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 52.07 29.21 0)
+			(at 52.07 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9341,7 +9744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 24.13 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,7 +9755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 24.13 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9363,7 +9766,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 24.13 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
