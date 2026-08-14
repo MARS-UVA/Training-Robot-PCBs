@@ -8218,7 +8218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-DevKitC"
+		(property "Footprint" "Espressif:ESP32-S3-DevKitC"
 			(at 72.39 165.1 0)
 			(hide yes)
 			(show_name no)
