@@ -5718,7 +5718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MARS Custom Footprints:01530008Z Fuse Holder"
+		(property "Footprint" "01530008Z:01530008"
 			(at 141.732 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -7146,7 +7146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MARS Custom Footprints:TB6612FNG Breakout"
+		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
 			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7742,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MARS Custom Footprints:01530008Z Fuse Holder"
+		(property "Footprint" "01530008Z:01530008"
 			(at 140.462 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -9401,7 +9401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MARS Custom Footprints:TB6612FNG Breakout"
+		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
 			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +10799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MARS Custom Footprints:Amass XT60PW"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
